@@ -38,7 +38,7 @@ Calcul du score :
 Code final : 
 
  - Le code final correspond à la concaténation de chaque numéro de département visités, dans l'ordre. Pour les départements corses, '2A' pour la Corse-du-Sud et '2B' pour la Haute-Corse.
- -  
+  
 
 Pour ce qui est de l'implémentation des meilleurs scores, nous n'avons pas su comment faire. L'interface permet de les ajouter mais elle est vide.
 
