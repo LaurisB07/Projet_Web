@@ -30,7 +30,7 @@ Calcul du score :
 
  - Variables : nb_dest -> nombre de DestiNations, dif -> difficulté d'une DestiNation, delta_t -> temps d'une étape, t_code -> temps de déverrouillage du coffre
 
- - Formule : score = SOMME(1,nb_dest)(1000000 * dif / sqrt(delta_t)) + (1000000 / (3000 + sqrt(t_code)))
+ - Formule : score = (SOMME(1,nb_dest)(1000000 * dif / sqrt(delta_t)) + (1000000 / (3000 + sqrt(t_code)))) * (1 + 2 * nb_dest / 96)
 
  - Chaque temps est en millisecondes.
 
